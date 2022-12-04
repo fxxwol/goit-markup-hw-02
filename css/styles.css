@@ -1,0 +1,94 @@
+/* основний колір - #212121 
+вторинний - #757575
+білий - FFFFFF
+акцент - 2196F3*/
+
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --white: #ffffff;
+  --dark-bcg: #2f303a;
+  --logo-color: #000000;
+  --btn-primary-color:#F5F4FA;
+}
+
+body {
+  color: var(--primary-text-color);
+}
+
+.logo-dark {
+  color: var(--logo-color);
+}
+
+.logo-light {
+  color: var(--white);
+}
+
+.logo-web {
+  color: var(--accent-color);
+}
+
+.nav {
+  color: var(--primary-text-color);
+}
+
+.contact {
+  color: var(--secondary-text-color);
+}
+
+.nav:hover,
+.nav:focus,
+.contact:hover,
+.contact:focus {
+  color: var(--accent-color);
+}
+
+.nav.active {
+  color: var(--accent-color);
+}
+
+.hero {
+  background-color: var(--dark-bcg);
+}
+
+h1 {
+  color: var(--white);
+}
+
+.feature-descr {
+  color: var(--secondary-text-color);
+}
+.position {
+  color: var(--secondary-text-color);
+}
+
+.footer {
+  background-color: var(--dark-bcg);
+}
+
+.address {
+  color: var(--white);
+}
+
+.footer {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* portfolio */
+
+
+.btn.primary {
+  color: var(--primary-text-color);
+  background-color: var(--btn-primary-color);
+}
+.btn,
+.btn:hover,
+.btn:focus {
+  background-color: var(--accent-color);
+  color: var(--white);
+}
+
+.work-type{
+    color: var(--secondary-text-color);
+}

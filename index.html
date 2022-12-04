@@ -5,28 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
       <nav>
-        <a href="/"> WebStudio </a>
+        <a href="/" class="logo-dark"><span class="logo-web">Web</span>Studio </a>
 
-        <ul>
-          <li><a href="">Студія</a></li>
-          <li><a href="">Портфоліо</a></li>
-          <li><a href="">Контакти</a></li>
+        <ul class="navs">
+          <li><a href="./index.html" class="nav active">Студія</a></li>
+          <li><a href="./portfolio.html" class="nav">Портфоліо</a></li>
+          <li><a href="" class="nav">Контакти</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="contacts">
+        <li>
+          <a href="mailto:info@devstudio.com" class="contact"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a href="tel:+380961111111" class="contact">+38 096 111 11 11</a>
+        </li>
       </ul>
     </header>
     <main>
       <!-- Hero -->
-      <section>
+      <section class="hero">
         <h1>Ефективні рішення для вашого бізнесу</h1>
-        <button type="button">Замовити послугу</button>
+        <button type="button" class="btn">Замовити послугу</button>
       </section>
 
       <!-- Переваги -->
@@ -35,7 +42,7 @@
         <ul>
           <li>
             <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p>
+            <p class="feature-descr">
               Ідейні міркування, і навіть початок<br />
               повсякденної роботи з формування <br />
               позиції.
@@ -43,21 +50,21 @@
           </li>
           <li>
             <h3>ПУНКТУАЛЬНІСТЬ</h3>
-            <p>
+            <p class="feature-descr">
               Завдання організації, особливо рамки <br />
               і місце навчання кадрів тягне у себе.
             </p>
           </li>
           <li>
             <h3>ПЛАНУВАННЯ</h3>
-            <p>
+            <p class="feature-descr">
               Так само консультація з широким <br />
               активом значною мірою зумовлює.
             </p>
           </li>
           <li>
             <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p>
+            <p class="feature-descr">
               Значимість цих проблем настільки <br />
               очевидна, що реалізація планових <br />
               завдань.
@@ -100,7 +107,7 @@
               width="270"
             />
             <h3>Ігор Дем'янко</h3>
-            <p>Product Designer</p>
+            <p class="position">Product Designer</p>
           </li>
           <li>
             <img
@@ -109,7 +116,7 @@
               width="270"
             />
             <h3>Ольга Рєпіна</h3>
-            <p>Frontend Developer</p>
+            <p class="position">Frontend Developer</p>
           </li>
           <li>
             <img
@@ -118,7 +125,7 @@
               width="270"
             />
             <h3>Микола Тарасов</h3>
-            <p>Marketing</p>
+            <p class="position">Marketing</p>
           </li>
           <li>
             <img
@@ -127,19 +134,19 @@
               width="270"
             />
             <h3>Михайло Єрмаков</h3>
-            <p>UI Designer</p>
+            <p class="position">UI Designer</p>
           </li>
         </ul>
       </section>
-      <!-- Футер -->
-      <footer>
-        <a href="/"> WebStudio </a>
-        <address>
-          м. Київ, пр-т Лесі Українки, 26 <br />
-          info@devstudio.com <br />
-          +38 096 111 11 11
-        </address>
-      </footer>
     </main>
+    <!-- Футер -->
+    <footer class="footer">
+      <a href="/" class="logo-light"><span class="logo-web">Web</span>Studio</a>
+      <address>
+        <span class="address">м. Київ, пр-т Лесі Українки, 26 </span> <br />
+        info@devstudio.com <br />
+        +38 096 111 11 11
+      </address>
+    </footer>
   </body>
 </html>
