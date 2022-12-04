@@ -6,19 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./css/styles.css" />
+   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
       <nav>
-        <a href="/" class="logo-dark"><span class="logo-web">Web</span>Studio </a>
+        <a href="/" class="logo"><span class="logo-web">Web</span>Studio </a>
 
-        <ul class="navs">
+        <ul class="navs list">
           <li><a href="./index.html" class="nav active">Студія</a></li>
           <li><a href="./portfolio.html" class="nav">Портфоліо</a></li>
           <li><a href="" class="nav">Контакти</a></li>
         </ul>
       </nav>
-      <ul class="contacts">
+      <ul class="contacts list">
         <li>
           <a href="mailto:info@devstudio.com" class="contact"
             >info@devstudio.com</a
@@ -32,16 +33,16 @@
     <main>
       <!-- Hero -->
       <section class="hero">
-        <h1>Ефективні рішення для вашого бізнесу</h1>
+        <h1>Ефективні рішення для <br> вашого бізнесу</h1>
         <button type="button" class="btn">Замовити послугу</button>
       </section>
 
       <!-- Переваги -->
       <section>
         <h2>Наші переваги</h2>
-        <ul>
+        <ul class="list">
           <li>
-            <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
+            <h3 class="feature">УВАГА ДО ДЕТАЛЕЙ</h3>
             <p class="feature-descr">
               Ідейні міркування, і навіть початок<br />
               повсякденної роботи з формування <br />
@@ -49,21 +50,21 @@
             </p>
           </li>
           <li>
-            <h3>ПУНКТУАЛЬНІСТЬ</h3>
+            <h3 class="feature">ПУНКТУАЛЬНІСТЬ</h3>
             <p class="feature-descr">
               Завдання організації, особливо рамки <br />
               і місце навчання кадрів тягне у себе.
             </p>
           </li>
           <li>
-            <h3>ПЛАНУВАННЯ</h3>
+            <h3 class="feature">ПЛАНУВАННЯ</h3>
             <p class="feature-descr">
               Так само консультація з широким <br />
               активом значною мірою зумовлює.
             </p>
           </li>
           <li>
-            <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <h3 class="feature">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
             <p class="feature-descr">
               Значимість цих проблем настільки <br />
               очевидна, що реалізація планових <br />
@@ -75,8 +76,8 @@
 
       <!-- Чим ми займаємось -->
       <section>
-        <h2>Чим ми займаємось</h2>
-        <ul>
+        <h2 class="section-title">Чим ми займаємось</h2>
+        <ul class="list">
           <li>
             <img
               src="./images/box1.jpg"
@@ -98,15 +99,15 @@
       </section>
       <!-- Наша команда -->
       <section>
-        <h2>Наша команда</h2>
-        <ul>
+        <h2 class="section-title">Наша команда</h2>
+        <ul class="list">
           <li>
             <img
               src="./images/workers/ihor.jpg"
               alt="Ігор Дем'янко"
               width="270"
             />
-            <h3>Ігор Дем'янко</h3>
+            <h3 class="name">Ігор Дем'янко</h3>
             <p class="position">Product Designer</p>
           </li>
           <li>
@@ -115,7 +116,7 @@
               alt="Ольга Рєпіна"
               width="270"
             />
-            <h3>Ольга Рєпіна</h3>
+            <h3 class="name">Ольга Рєпіна</h3>
             <p class="position">Frontend Developer</p>
           </li>
           <li>
@@ -124,7 +125,7 @@
               alt="Микола Тарасов"
               width="270"
             />
-            <h3>Микола Тарасов</h3>
+            <h3 class="name">Микола Тарасов</h3>
             <p class="position">Marketing</p>
           </li>
           <li>
@@ -133,7 +134,7 @@
               alt="Михайло Єрмаков"
               width="270"
             />
-            <h3>Михайло Єрмаков</h3>
+            <h3 class="name">Михайло Єрмаков</h3>
             <p class="position">UI Designer</p>
           </li>
         </ul>
@@ -141,8 +142,8 @@
     </main>
     <!-- Футер -->
     <footer class="footer">
-      <a href="/" class="logo-light"><span class="logo-web">Web</span>Studio</a>
-      <address>
+      <a href="/" class="logo light"><span class="logo-web">Web</span>Studio</a>
+      <address class="footer-address">
         <span class="address">м. Київ, пр-т Лесі Українки, 26 </span> <br />
         info@devstudio.com <br />
         +38 096 111 11 11

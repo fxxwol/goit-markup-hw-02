@@ -10,18 +10,27 @@
   --white: #ffffff;
   --dark-bcg: #2f303a;
   --logo-color: #000000;
-  --btn-primary-color:#F5F4FA;
+  --btn-primary-color: #f5f4fa;
 }
 
 body {
+  background-color: var(--white);
   color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
 }
 
-.logo-dark {
+.logo {
   color: var(--logo-color);
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
 }
 
-.logo-light {
+.logo.light {
   color: var(--white);
 }
 
@@ -29,12 +38,26 @@ body {
   color: var(--accent-color);
 }
 
+.list {
+  list-style-type: none;
+}
+
 .nav {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .contact {
   color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .nav:hover,
@@ -54,29 +77,64 @@ body {
 
 h1 {
   color: var(--white);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.feature {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .feature-descr {
   color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
 }
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
 .position {
   color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
 }
 
 .footer {
   background-color: var(--dark-bcg);
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  font-style: normal;
 }
 
 .address {
   color: var(--white);
 }
 
-.footer {
-  color: rgba(255, 255, 255, 0.6);
-}
-
 /* portfolio */
-
 
 .btn.primary {
   color: var(--primary-text-color);
@@ -87,8 +145,23 @@ h1 {
 .btn:focus {
   background-color: var(--accent-color);
   color: var(--white);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06 em;
 }
 
-.work-type{
-    color: var(--secondary-text-color);
+.work-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.work-type {
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
 }
