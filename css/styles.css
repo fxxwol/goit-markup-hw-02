@@ -1,16 +1,14 @@
-/* основний колір - #212121 
-вторинний - #757575
-білий - FFFFFF
-акцент - 2196F3*/
+
 
 :root {
-  --primary-text-color: #212121;
-  --secondary-text-color: #757575;
-  --accent-color: #2196f3;
-  --white: #ffffff;
-  --dark-bcg: #2f303a;
-  --logo-color: #000000;
+ --primary-text-color: #2e2f42;
+  --secondary-text-color: #434455;
+  --accent-color: #4d5ae5;
+  --cloud: #f4f4fd;
+  --dark-bcg: #2e2f42;
   --btn-primary-color: #f5f4fa;
+  /* --bcg-color: #e5e5e5; */
+  --white:#ffffff;
 }
 
 body {
