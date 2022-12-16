@@ -15,6 +15,7 @@ body {
   background-color: var(--white);
   color: var(--primary-text-color);
   font-family: "Roboto", sans-serif;
+  font-size: 14px;
   letter-spacing: 0.03em;
 }
 
@@ -43,7 +44,6 @@ body {
 .nav {
   color: var(--primary-text-color);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -52,7 +52,6 @@ body {
 .contact {
   color: var(--secondary-text-color);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -85,13 +84,11 @@ body {
 
 .feature {
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
 }
 
 .feature-descr {
   color: var(--secondary-text-color);
-  font-size: 14px;
   line-height: 1.7;
 }
 
@@ -120,7 +117,6 @@ body {
 }
 
 .footer-address {
-  font-size: 14px;
   line-height: 1.7;
   font-style: normal;
 }
